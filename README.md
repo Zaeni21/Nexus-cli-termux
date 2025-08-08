@@ -32,8 +32,8 @@ proot-distro login ubuntu
 Update dan upgrade paket Ubuntu, lalu install tools yang dibutuhkan:
 
 ```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install -y build-essential pkg-config libssl-dev libcrypto++-dev gcc libc6-dev zlib1g-dev curl wget
+apt update && apt upgrade -y
+apt install -y build-essential pkg-config libssl-dev libcrypto++-dev gcc libc6-dev zlib1g-dev curl wget
 ```
 
 ---
