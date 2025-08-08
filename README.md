@@ -1,4 +1,4 @@
-Tentu, bro! Nih aku rapihin dan bikin README-mu jadi lebih rapi, konsisten, dan mudah dibaca untuk GitHub:
+Running Nexus Termux
 
 ````markdown
 # Nexus-cli-termux
