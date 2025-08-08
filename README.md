@@ -2,9 +2,10 @@
 zkgm
 
 ‎# Step 1: Install Termux 
+
 ‎https://play.google.com/store/apps/details?id=com.termux
 
-‎# Step 2: Set Up Termux
+‎# Step 2: Set Up Termux 
 ‎
 ‎pkg update && pkg upgrade -y
 ‎pkg install proot-distro curl wget
