@@ -21,7 +21,7 @@ Update package dan install dependensi dasar:
 ```bash
 pkg update && pkg upgrade -y
 pkg install proot-distro curl wget
-````
+```
 
 Install dan login ke Ubuntu distro:
 
