@@ -130,3 +130,32 @@ Kalau kamu ketik ulang manual, harusnya langsung jalan.
 
 
 ---
+# Ubuntu Proot-Distro di Termux
+
+Ubuntu proot-distro adalah alat yang memungkinkan kamu menjalankan distribusi Linux Ubuntu (dan distribusi Linux lainnya) di dalam lingkungan terisolasi dan terkontainerisasi pada perangkat Android menggunakan Termux. Alat ini menggunakan **Proot**, sebuah sistem yang meniru lingkungan root tanpa memerlukan akses root sesungguhnya.
+
+## Apa itu Proot?
+
+Proot memungkinkan menjalankan lingkungan yang menyerupai root tanpa perlu izin root asli. Ini sangat berguna di Termux, yang berjalan tanpa akses root.
+
+## Apa itu Termux?
+
+Termux adalah aplikasi emulator terminal dan lingkungan Linux untuk Android yang memungkinkan kamu menjalankan berbagai perintah dan aplikasi Linux di perangkat Android.
+
+## Apa itu Distribusi Linux?
+
+Distribusi Linux (distro) adalah versi Linux seperti Ubuntu, Debian, Kali Linux, dan lain-lain.
+
+## Apa itu Ubuntu Proot-Distro?
+
+Ubuntu proot-distro menggunakan Proot untuk mengelola dan menjalankan Ubuntu (dan distro lainnya) di dalam Termux. Dengan ini, kamu bisa menjalankan lingkungan Ubuntu lengkap di Android tanpa perlu root perangkat.
+
+## Manfaat
+
+- **Lingkungan Linux Lengkap:** Akses aplikasi dan alat Ubuntu tanpa root.  
+- **Keamanan:** Berjalan dalam isolasi, meningkatkan keamanan sistem.  
+- **Fleksibilitas:** Mudah berpindah antar distro Linux yang didukung.
+
+---
+
+Silakan gunakan dan sesuaikan alat ini untuk mendapatkan kekuatan Linux di perangkat Android kamu!
