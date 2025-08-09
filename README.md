@@ -69,7 +69,11 @@ nexus --version
 
 ```bash
 source /root/.profile
-``` 
+```
+atau 
+```bash
+source /root/.bashrc
+```
 Ganti `<Your-wallet>` dengan wallet Nexus kamu
 ```bash
 nexus-cli register-user --wallet-address <Your-wallet>
