@@ -19,7 +19,9 @@ pkg install proot-distro curl wget
 ```
 
 Install dan login ke Ubuntu distro:
-
+```bash
+pkg install proot-distro
+```
 ```bash
 proot-distro install ubuntu
 proot-distro login ubuntu
