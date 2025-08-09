@@ -1,6 +1,6 @@
 ---
 
-# Guide to Installing and Setting Up Nexus CLI in Termux with Ubuntu proot-distro
+Guide to Installing and Setting Up Nexus CLI in Termux with Ubuntu proot-distro
 
 ---
 
