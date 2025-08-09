@@ -142,3 +142,33 @@ This issue often happens when copying commands from websites or chat messages th
 Typing the command manually should fix it instantly.
 
 ---
+# Ubuntu Proot-Distro on Termux
+
+Ubuntu proot-distro is a tool that allows you to run the Ubuntu Linux distribution (and other Linux distros) inside an isolated, containerized environment on Android using Termux. It uses **Proot**, a system that emulates a root environment without requiring actual root access.
+
+## What is Proot?
+
+Proot enables running a root-like environment without needing real root permissions. This is useful on Termux, which runs without root access.
+
+## What is Termux?
+
+Termux is a terminal emulator and Linux environment app for Android. It lets you run Linux commands and applications on your Android device.
+
+## What is a Linux Distro?
+
+A Linux distribution (distro) is a version of Linux such as Ubuntu, Debian, or Kali Linux.
+
+## What is Ubuntu Proot-Distro?
+
+Ubuntu proot-distro uses Proot to manage and run Ubuntu (and other distros) within Termux. This lets you run a full Ubuntu environment on Android without rooting your device.
+
+## Benefits
+
+- **Full Linux Environment:** Access Ubuntu apps and tools without root.  
+- **Security:** Runs isolated, increasing system safety.  
+- **Flexibility:** Easily switch between supported Linux distros.
+
+---
+
+Feel free to use and customize this tool to get the power of Linux on your Android device!
+
