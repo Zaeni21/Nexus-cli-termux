@@ -78,5 +78,49 @@ Mulai node Nexus dengan perintah berikut (ganti `<Your-id>` dengan node ID kamu)
 ```bash
 nexus-network start --node-id <Your-id>
 ```
+Aku lihat masalahnya unik—`nexus-network --version` bisa jalan, tapi kalau kamu ketik `‎nexus-network start --node-id 25802459` malah `command not found`.
+Itu biasanya terjadi karena ada **karakter tak terlihat** (invisible character / Zero Width No-Break Space) di depan perintah.
+
+Ciri-cirinya:
+
+* `--version` jalan kalau ketik manual.
+* `start` gagal karena kamu kemungkinan copy-paste dari chat/web yang nyelip karakter khusus.
+
+---
+
+### 🔹 Cara memperbaiki
+
+1. **Ketik ulang manual** perintahnya (jangan copy-paste):
+
+   ```bash
+   nexus-network start --node-id <your-id>
+   ```
+
+2. **Cek lokasi binary** untuk memastikan PATH benar:
+
+   ```bash
+   which nexus-network
+   ```
+
+   Kalau hasilnya `/root/.nexus/bin/nexus-network` atau `/usr/local/bin/nexus-network`, berarti sudah benar.
+
+3. **Kalau mau, bikin alias biar gampang**:
+
+   ```bash
+   echo "alias nnstart='nexus-network start --node-id <Your-id>'" >> ~/.bashrc
+   source ~/.bashrc
+   ```
+
+   Lalu jalankan cukup:
+
+   ```bash
+   nnstart
+   ```
+
+---
+
+Masalah ini sering kejadian kalau copy-paste dari web atau chat yang mengandung karakter **U+200E / U+FEFF**.
+Kalau kamu ketik ulang manual, harusnya langsung jalan.
+
 
 ---
