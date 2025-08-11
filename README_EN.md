@@ -82,12 +82,6 @@ or
 source /root/.bashrc
 ```
 
-Replace `<Your-wallet>` with your Nexus wallet:
-
-```bash
-nexus-cli register-user --wallet-address <Your-wallet>
-```
-
 Start the Nexus node with the following command (replace `<Your-id>` with your node ID):
 
 ```bash
