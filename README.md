@@ -76,10 +76,7 @@ atau
 ```bash
 source /root/.bashrc
 ```
-Ganti `<Your-wallet>` dengan wallet Nexus kamu
-```bash
-nexus-cli register-user --wallet-address <Your-wallet>
-```
+
 Mulai node Nexus dengan perintah berikut (ganti `<Your-id>` dengan node ID kamu):
 ```bash
 nexus-network start --node-id <Your-id>
